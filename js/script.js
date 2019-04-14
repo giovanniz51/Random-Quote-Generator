@@ -58,13 +58,13 @@ function printQuote() {
   var div = document.getElementById("quote-box");
   div.innerHTML = html;
 
-  /* Change background of body to a random Color
-     source: https://stackoverflow.com/questions/1484506/random-color-generator
-  */
+  // Change background of body to a random Color
   document.body.style.backgroundColor = getRandomColor();
 }
 
-// Generates a Random Color and returns it
+/* Generates a Random Color and returns it
+   source: https://stackoverflow.com/questions/1484506/random-color-generator
+*/
 function getRandomColor() {
   var letters = '0123456789ABCDEF';
   var color = '#';
