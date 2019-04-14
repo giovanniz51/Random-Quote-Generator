@@ -75,7 +75,7 @@ function getRandomColor() {
 }
 
 /***
-  Generate a Quote and displays it in the loadQuote div, it uses the printQuote Function
+  Generate a Quote and displays it in the loadQuote div if the button loadQuote is clicked, it uses the printQuote Function
 ***/
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
