@@ -61,7 +61,7 @@ function printQuote() {
   /* Change background of body to a random Color
      source: https://stackoverflow.com/questions/1484506/random-color-generator
   */
-  document.body.style.backgroundColor = getRandomColor()
+  document.body.style.backgroundColor = getRandomColor();
 }
 
 // Generates a Random Color and returns it
