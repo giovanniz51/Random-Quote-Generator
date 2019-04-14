@@ -38,7 +38,7 @@ function getRandomQuote() {
 }
 
 /***
-  Generate a random Quote with the getRandomQuote() function and creates the HTML for the it
+  Generate a random Quote with the getRandomQuote() function and creates the HTML for it
 ***/
 function printQuote() {
   var quote = getRandomQuote();
