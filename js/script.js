@@ -58,7 +58,9 @@ function printQuote() {
   var div = document.getElementById("quote-box");
   div.innerHTML = html;
 
-  //Change background of body to a random Color
+  /* Change background of body to a random Color
+     source: https://stackoverflow.com/questions/1484506/random-color-generator
+  */
   document.body.style.backgroundColor = getRandomColor()
 }
 
