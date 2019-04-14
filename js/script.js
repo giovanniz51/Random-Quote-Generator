@@ -43,7 +43,7 @@ function getRandomQuote() {
 function printQuote() {
   var quote = getRandomQuote();
   var html = '';
-  html = `<p class="quote">${quote.quote}</p>
+  html += `<p class="quote">${quote.quote}</p>
           <p class="source">${quote.source}`;
           if(quote.citation){
             html += `<span class="citation"> ${quote.citation}</span>`;
